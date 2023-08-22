@@ -1,23 +1,5 @@
 {
-  "name": "casbin/top-permission",
-  "keywords": [
-    "webman",
-    "casbin",
-    "permission",
-    "access-control",
-    "authorization",
-    "rbac",
-    "acl",
-    "abac",
-    "authz"
-  ],
-  "description": "webman casbin permission plugin",
-  "authors": [
-    {
-      "name": "Tinywan",
-      "email": "756684177@qq.com"
-    }
-  ],
+  "name": "inkkk/top-permission",
   "type": "library",
   "license": "MIT",
   "require": {
@@ -32,12 +14,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Casbin\\TopPermission\\": "src"
+      "Inkkk\\TopPermission\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Casbin\\TopPermission\\Tests\\": "tests/"
+      "Inkkk\\TopPermission\\Tests\\": "tests/"
     }
   },
   "require-dev": {

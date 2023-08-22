@@ -7,9 +7,9 @@
  * @date 2022/1/13 11:07
  */
 
-namespace Casbin\TopPermission\Tests\LaravelDatabase;
+namespace Inkkk\TopPermission\Tests\LaravelDatabase;
 
-use Casbin\TopPermission\Permission;
+use Inkkk\TopPermission\Permission;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 use support\bootstrap\LaravelDb;
 use support\Db;

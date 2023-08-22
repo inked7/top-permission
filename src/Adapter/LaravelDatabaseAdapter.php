@@ -8,17 +8,17 @@
 
 declare(strict_types=1);
 
-namespace Casbin\TopPermission\Adapter;
+namespace Inkkk\TopPermission\Adapter;
 
-use Casbin\Model\Model;
-use Casbin\Persist\Adapter;
-use Casbin\Persist\AdapterHelper;
-use Casbin\Persist\UpdatableAdapter;
-use Casbin\Persist\BatchAdapter;
-use Casbin\Persist\FilteredAdapter;
-use Casbin\Persist\Adapters\Filter;
-use Casbin\Exceptions\InvalidFilterTypeException;
-use Casbin\TopPermission\Model\LaravelRuleModel;
+use Inkkk\Model\Model;
+use Inkkk\Persist\Adapter;
+use Inkkk\Persist\AdapterHelper;
+use Inkkk\Persist\UpdatableAdapter;
+use Inkkk\Persist\BatchAdapter;
+use Inkkk\Persist\FilteredAdapter;
+use Inkkk\Persist\Adapters\Filter;
+use Inkkk\Exceptions\InvalidFilterTypeException;
+use Inkkk\TopPermission\Model\LaravelRuleModel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\DB;

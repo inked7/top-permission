@@ -7,10 +7,10 @@
 
 declare(strict_types=1);
 
-namespace Casbin\TopPermission\Watcher;
+namespace Inkkk\TopPermission\Watcher;
 
 
-use Casbin\Persist\Watcher;
+use Inkkk\Persist\Watcher;
 use Closure;
 use Workerman\Redis\Client;
 

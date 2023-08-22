@@ -15,7 +15,7 @@ return [
             'config_text'      => '',
         ],
         // 适配器
-        'adapter'  => Casbin\TopPermission\Adapter\LaravelDatabaseAdapter::class,
+        'adapter'  => Inkkk\TopPermission\Adapter\LaravelDatabaseAdapter::class,
         // 数据库设置
         'database' => [
             'connection'  => '',
@@ -30,7 +30,7 @@ return [
             'config_file_path' => config_path() . '/plugin/casbin/webman-permission/restful-model.conf',
             'config_text'      => '',
         ],
-        'adapter'  => Casbin\TopPermission\Adapter\LaravelDatabaseAdapter::class,
+        'adapter'  => Inkkk\TopPermission\Adapter\LaravelDatabaseAdapter::class,
         'database' => [
             'connection'  => '',
             'rules_table' => 'restful_casbin_rule',

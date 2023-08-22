@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Casbin\TopPermission\Model;
+namespace Inkkk\TopPermission\Model;
 
 use Illuminate\Database\Eloquent\Model;
 

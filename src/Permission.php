@@ -8,17 +8,17 @@
 
 declare(strict_types=1);
 
-namespace Casbin\TopPermission;
+namespace Inkkk\TopPermission;
 
 
-use Casbin\Enforcer;
-use Casbin\Exceptions\CasbinException;
-use Casbin\Model\Model;
+use Inkkk\Enforcer;
+use Inkkk\Exceptions\InkkkException;
+use Inkkk\Model\Model;
 use support\Container;
-use Casbin\TopPermission\Watcher\RedisWatcher;
+use Inkkk\TopPermission\Watcher\RedisWatcher;
 
 /**
- * @see \Casbin\Enforcer
+ * @see \Inkkk\Enforcer
  * @mixin Enforcer
  * @method static enforce(mixed ...$rvals) 权限检查，输入参数通常是(sub, obj, act)
  * @method static bool addPolicy(mixed ...$params) 当前策略添加授权规则
@@ -52,7 +52,7 @@ class Permission
     /**
      * @param  string|null  $driver
      * @return Enforcer
-     * @throws CasbinException
+     * @throws InkkkException
      * @author Lyt8384
      */
     public static function driver(?string $driver = null): Enforcer
@@ -120,7 +120,7 @@ class Permission
      * @param string $method
      * @param $arguments
      * @return mixed
-     * @throws CasbinException
+     * @throws InkkkException
      * @author Tinywan(ShaoBo Wan)
      */
     public static function __callStatic(string $method, $arguments)
