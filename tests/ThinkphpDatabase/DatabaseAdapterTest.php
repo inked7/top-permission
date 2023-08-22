@@ -1,8 +1,8 @@
 <?php
 
-namespace Casbin\WebmanPermission\Tests\ThinkphpDatabase;
+namespace Casbin\TopPermission\Tests\ThinkphpDatabase;
 
-use Casbin\WebmanPermission\Tests\Adapter;
+use Casbin\TopPermission\Tests\Adapter;
 
 class DatabaseAdapterTest extends TestCase
 {

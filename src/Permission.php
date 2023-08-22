@@ -8,14 +8,14 @@
 
 declare(strict_types=1);
 
-namespace Casbin\WebmanPermission;
+namespace Casbin\TopPermission;
 
 
 use Casbin\Enforcer;
 use Casbin\Exceptions\CasbinException;
 use Casbin\Model\Model;
 use support\Container;
-use Casbin\WebmanPermission\Watcher\RedisWatcher;
+use Casbin\TopPermission\Watcher\RedisWatcher;
 
 /**
  * @see \Casbin\Enforcer

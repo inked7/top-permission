@@ -1,8 +1,8 @@
 <?php
 
-namespace Casbin\WebmanPermission\Tests\LaravelDatabase;
+namespace Casbin\TopPermission\Tests\LaravelDatabase;
 
-use Casbin\WebmanPermission\Tests\Adapter;
+use Casbin\TopPermission\Tests\Adapter;
 
 class LaravelDatabaseAdapterTest extends TestCase
 {

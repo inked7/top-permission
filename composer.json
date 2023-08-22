@@ -1,5 +1,5 @@
 {
-  "name": "casbin/webman-permission",
+  "name": "casbin/top-permission",
   "keywords": [
     "webman",
     "casbin",
@@ -32,12 +32,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Casbin\\WebmanPermission\\": "src"
+      "Casbin\\TopPermission\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Casbin\\WebmanPermission\\Tests\\": "tests/"
+      "Casbin\\TopPermission\\Tests\\": "tests/"
     }
   },
   "require-dev": {

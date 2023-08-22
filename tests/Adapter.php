@@ -1,8 +1,8 @@
 <?php
 
-namespace Casbin\WebmanPermission\Tests;
+namespace Casbin\TopPermission\Tests;
 
-use Casbin\WebmanPermission\Permission;
+use Casbin\TopPermission\Permission;
 
 trait Adapter
 {

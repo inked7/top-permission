@@ -11,7 +11,7 @@ return [
             'config_text'      => '',
         ],
         // 适配器
-        'adapter' => Casbin\WebmanPermission\Adapter\DatabaseAdapter::class, // ThinkORM 适配器
+        'adapter' => Casbin\TopPermission\Adapter\DatabaseAdapter::class, // ThinkORM 适配器
         // 数据库设置
         'database' => [
             'connection'  => '',
@@ -27,7 +27,7 @@ return [
             'config_text'      => '',
         ],
         // 适配器
-        'adapter' => Casbin\WebmanPermission\Adapter\DatabaseAdapter::class, // ThinkORM 适配器
+        'adapter' => Casbin\TopPermission\Adapter\DatabaseAdapter::class, // ThinkORM 适配器
         // 数据库设置
         'database' => [
             'connection'  => '',

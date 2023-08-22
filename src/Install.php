@@ -1,6 +1,6 @@
 <?php
 
-namespace Casbin\WebmanPermission;
+namespace Casbin\TopPermission;
 
 class Install
 {

@@ -7,9 +7,9 @@
  * @date 2022/1/13 11:07
  */
 
-namespace Casbin\WebmanPermission\Tests\ThinkphpDatabase;
+namespace Casbin\TopPermission\Tests\ThinkphpDatabase;
 
-use Casbin\WebmanPermission\Permission;
+use Casbin\TopPermission\Permission;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 use think\facade\Db;
 use Webman\Config;

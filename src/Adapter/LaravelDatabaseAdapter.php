@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Casbin\WebmanPermission\Adapter;
+namespace Casbin\TopPermission\Adapter;
 
 use Casbin\Model\Model;
 use Casbin\Persist\Adapter;
@@ -18,7 +18,7 @@ use Casbin\Persist\BatchAdapter;
 use Casbin\Persist\FilteredAdapter;
 use Casbin\Persist\Adapters\Filter;
 use Casbin\Exceptions\InvalidFilterTypeException;
-use Casbin\WebmanPermission\Model\LaravelRuleModel;
+use Casbin\TopPermission\Model\LaravelRuleModel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\DB;
