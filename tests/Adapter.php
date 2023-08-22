@@ -1,8 +1,8 @@
 <?php
 
-namespace Casbin\TopPermission\Tests;
+namespace Inkkk\TopPermission\Tests;
 
-use Casbin\TopPermission\Permission;
+use Inkkk\TopPermission\Permission;
 
 trait Adapter
 {

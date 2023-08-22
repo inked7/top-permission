@@ -1,6 +1,6 @@
 <?php
 
-namespace Casbin\TopPermission;
+namespace Inkkk\TopPermission;
 
 class Install
 {
